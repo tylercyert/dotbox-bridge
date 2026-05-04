@@ -1,0 +1,24 @@
+{
+  "name": "@dotbox/bridge",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "module": "src/index.ts",
+  "bin": {
+    "dotbox": "src/index.ts"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts dev",
+    "dev:lan": "bun run src/index.ts dev --host 0.0.0.0",
+    "build": "bun build --compile --target=bun --outfile=dist/dotbox src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "ulid": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.20",
+    "typescript": "~6.0.2"
+  }
+}
