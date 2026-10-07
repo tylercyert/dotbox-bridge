@@ -1,5 +1,7 @@
 # dotbox-bridge
 
+> **Archived.** This daemon powered DotBox's live agent dashboard, which no longer exists. DotBox is now a canvas that turns a drawn agent system into copy-paste prompts for Claude Code or Codex; there is nothing to install. Try it at [dotbox.zip](https://dotbox.zip) or see the source at [tylercyert/dotbox](https://github.com/tylercyert/dotbox). The code below is kept for reference and is no longer maintained.
+
 Local daemon that connects your Claude Code agents to the [DotBox](https://dotbox.zip) dashboard. Open-source by design — your code, agents, and Anthropic API key never leave your machine.
 
 Standalone binary (~100MB, Bun runtime baked in) speaks a versioned event protocol over WebSocket.
